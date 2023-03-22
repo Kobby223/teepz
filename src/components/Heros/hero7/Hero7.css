@@ -1,0 +1,57 @@
+.hero7 {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 0 10%;
+}
+.table {
+  text-align: start;
+  width: 100%;
+}
+
+.table tr td a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #252b3b;
+}
+
+.faq {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #252b3b;
+  padding: 3% 0;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .hero7 {
+    width: 100%;
+    height: 55vh;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .hero7 {
+    width: 100%;
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .hero7 {
+    width: 100%;
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero7 {
+    width: 100%;
+    height: 55vh;
+  }
+}

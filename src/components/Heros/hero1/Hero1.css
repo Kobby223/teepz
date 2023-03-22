@@ -1,0 +1,145 @@
+.hero1 {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0px;
+  white-space: nowrap;
+  margin-bottom: 90px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.links {
+  display: block;
+  position: absolute;
+  /* width: 20px; */
+  top: 3%;
+  left: 0px;
+  padding: 0;
+  opacity: 0.4;
+  border: 2.20588px solid #fe5a81;
+  box-shadow: -2.20588px 2.20588px 2.20588px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 5.51471px 5.51471px 0px;
+}
+.link {
+  padding: 5px;
+  color: #fff;
+}
+.links .link a {
+  background: #fe5a81;
+  border-radius: 50%;
+  padding: 4px 5px;
+  color: #fff;
+}
+.link:nth-child(2) {
+  border-top: 1px solid #000;
+}
+.link:nth-child(3) {
+  border-top: 1px solid #000;
+}
+.link:nth-child(4) {
+  border-top: 1px solid #000;
+}
+.link:nth-child(5) {
+  border-top: 1px solid #000;
+}
+.tips {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button {
+  background: #fe5a81;
+  color: #fff;
+  border: none;
+  padding: 6px 9px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.p1 {
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  color: #252b3b;
+}
+
+/* @media only screen and (max-width: 320px) {
+  .hero1 {
+    width: 50%;
+    height: 100vh;
+    padding: 50px 60px;
+
+    margin-bottom: 90px;
+  }
+  .links {
+    top: 2%;
+  }
+} */
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .hero1 {
+    width: 100%;
+    height: 20vh;
+  }
+  .links {
+    top: 1%;
+  }
+  .button {
+    padding: 4px 3px;
+    width: 60px;
+    height: 25px;
+    font-size: 13px;
+  }
+  .p1 {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .hero1 {
+    width: 100%;
+    height: 40vh;
+  }
+  .links {
+    top: 1%;
+  }
+  .button {
+    padding: 4px 3px;
+    width: 70px;
+    height: 25px;
+    font-size: 13px;
+  }
+  .p1 {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .links {
+    top: 1%;
+  }
+  .hero1 {
+    width: 100%;
+    height: 90vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero1 {
+    width: 100%;
+    height: 70vh;
+  }
+}
+/* @media only screen and (min-width: 1280px) {
+  .her01 {
+    width: 100%;
+    height: 80vh;
+  }
+} */
