@@ -22,7 +22,8 @@
   grid-template-columns: repeat(4, auto);
   grid-gap: 20px;
   place-items: center;
-  margin-top: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 .nav-link {
@@ -48,7 +49,7 @@ li:nth-child(1) {
 
 li button {
   background: transparent;
-  padding: 5px 6px;
+  /* padding: 5px 6px; */
   border-radius: 12px;
   color: #fff;
   border: 1px solid #fff;

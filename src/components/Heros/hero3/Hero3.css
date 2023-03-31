@@ -2,6 +2,7 @@
   width: 100%;
   height: 90vh;
   padding: 0 5%;
+  margin-top: 5%;
 }
 .hero3-heading {
   font-weight: 500;
@@ -11,17 +12,13 @@
   margin: auto;
   text-align: center;
   letter-spacing: -0.04em;
-
   color: #252b3b;
+  padding-bottom: 4%;
 }
-/* .hero-images {
-  display: flex;
-  padding: 5% 10%;
-  gap: 30px;
-  text-align: start;
-} */
+
 .tip-image {
   width: 400px;
+  height: 320px !important;
 }
 .hero3-msg {
   width: 400px;
@@ -38,6 +35,7 @@
   line-height: 72px;
   letter-spacing: -0.04em;
   color: #252b3b;
+  text-align: start;
 }
 .hero-box-para {
   font-weight: 400;

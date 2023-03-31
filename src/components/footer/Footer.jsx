@@ -29,23 +29,23 @@ function Footer() {
             </div>
             <div className="footer-col">
               <ul>
-                <li className="active">
-                  <NavLink exact to="/home">
+                <li>
+                  <NavLink exact to="/">
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to="/homee">
+                  <NavLink exact to="/m">
                     About
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to="/homeee">
+                  <NavLink exact to="/m">
                     Rewards
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to="/homeeee">
+                  <NavLink exact to="/m">
                     Contact
                   </NavLink>
                 </li>

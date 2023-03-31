@@ -68,6 +68,7 @@
 }
 .footer-col ul li a {
   transition: all 0.3s ease;
+  color: #bbbbbb;
 }
 .footer-col ul li:hover {
   color: #fff;

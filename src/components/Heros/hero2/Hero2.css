@@ -16,19 +16,20 @@
 .wrapper {
   display: flex;
   padding: 0 5%;
+  /* margin-bottom: 5%; */
 }
-.h2 {
+.content .h2 {
   font-weight: 700;
-  font-size: 20.0921px;
-  line-height: 51px;
+  font-size: 20px;
+  line-height: 31px;
   letter-spacing: 0.05em;
   color: #252b3b;
   padding: 15px 0;
 }
-.p2 {
+.content .p2 {
   font-weight: 400;
   font-size: 15.9717px;
-  /* line-height: 35px; */
+  line-height: 25px;
   width: 374.04px;
   letter-spacing: 0.05em;
   margin-left: -0px;
@@ -52,10 +53,6 @@
   flex-basis: 30;
   margin-left: 50px;
 }
-/* .image img {
-  width: 100%;
-  height: auto;
-} */
 .iphone {
   width: 400px !important;
 }
@@ -64,14 +61,16 @@
   height: 80px;
   background-image: url("../images/teepitColored.svg");
   background-repeat: repeat-x;
-  /* padding: 0 40%; */
-  margin: -7% 0 0 10px;
+  margin-top: -4%;
+  /* margin-left: 10px; */
+  /* margin-right: 10%; */
   background-color: rgba(37, 43, 59, 0.05);
-  z-index: 100;
+  /* z-index: 100; */
+  opacity: 0.3;
 }
-.circle1 {
+/* .circle1 {
   position: relative;
-  /* top: -40%; */
+  top: -40%;
   left: -75% !important;
   border: none;
   width: 120.31px;
@@ -96,7 +95,7 @@
   left: -25%;
   box-shadow: 15px 15px 0px #fe5a81;
   text-align: start;
-  /* background: rgba(255, 255, 255, 0.5); */
+  background: rgba(255, 255, 255, 0.5);
   background: #eea2b3;
   backdrop-filter: blur(33.4227px);
   border-radius: 42.8424px 42.8424px 42.8424px 0px;
@@ -114,7 +113,7 @@
   width: 200px;
   text-align-last: center;
   letter-spacing: 0.05em;
-}
+} */
 @media only screen and (min-width: 360px) and (max-width: 479px) {
   .hero2 {
     width: 100%;

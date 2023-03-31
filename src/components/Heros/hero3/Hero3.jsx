@@ -20,7 +20,7 @@ export function Hero3() {
               <img src={CopyFile} alt="" />
             </div>
           </div>
-          <div className="col-6  h-100 rounded hero3-msg">
+          <div className="col-6  h-100  rounded hero3-msg">
             <h3 className="hero-box-heading">Why Us?</h3>
             <p className="hero-box-para">
               Lorem ipsum dolor sit amet consectetur. Cursus vestibulum sit mi

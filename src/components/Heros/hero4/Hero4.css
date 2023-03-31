@@ -21,7 +21,7 @@
 .boxs .box {
   width: 250px;
   height: 210px;
-  padding: 5% 3% 5% 3%;
+  padding: 2% 3% 5% 3%;
   text-align: start;
   background: #fbfbfb;
   border: 2px solid rgba(254, 90, 129, 0.13);
@@ -51,12 +51,12 @@
 }
 .box .box-para {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   /* line-height: 20px; */
   /* margin-left: -0; */
   letter-spacing: -0.04em;
-  /* width: 5px !important; */
   color: rgba(37, 43, 59, 0.6);
+  /* white-space: nowrap; */
 }
 .box .boxpara {
   color: #000;
